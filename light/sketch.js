@@ -48,7 +48,6 @@ function draw()
   s.setUniform( "lightColor", picker.color()._array );
   s.setUniform( "lightIntensity", 0.2 );
   s.setUniform( "time", frameCount / 10 );
-  s.setUniform( "sampler", dvd );
   
   shader( s );
   rect( -hW, -hH, w, h );
