@@ -20,7 +20,7 @@ function setup()
   createCanvas( w, h, WEBGL );
   angleMode( DEGREES );
   
-  frameRate( 30 );
+  frameRate( 60 );
   
   noStroke();
   
