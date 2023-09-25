@@ -14,19 +14,20 @@
         
       }
 
-      ul li a {
-
+      ul li {
+        font-size: 12px;
       }
 
-      .bg-image {
-        background-image: url( https://cdn.pixabay.com/photo/2015/03/17/02/01/cubes-677092_1280.png ); /* test image */
+      /* This just screws everything up */
+      /*.bg-image {
+        background-image: url( https://cdn.pixabay.com/photo/2015/03/17/02/01/cubes-677092_1280.png )
         filter: blur( 8px );
         -webkit-filter: blur( 8px );
-        height: 100%;
+        width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-      }
+      }*/
         
     </style>
     
@@ -34,11 +35,11 @@
   </head>
   
   <body>
-    <div class="bg-image" />
     <h1>Interesting Shaders</h1>
     <ul>
       <li>
         <a href="/interesting-graphics/light">Light</a>
+        <br>
         <iframe src="/interesting-graphics/light/index.html" style="object-fit: scale-down; width: 100px; height: 100px;" />
       </li>
       <li></li>
